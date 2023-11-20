@@ -3,6 +3,10 @@
 // import java.lang.reflect.Array;
 // import java.util.Arrays;
 
+import java.text.NumberFormat;
+
+import java.util.Locale;
+
 public class App {
     public static void main(String[] args) throws Exception {
         
@@ -113,14 +117,71 @@ public class App {
 
         // --------------------------------  Do while  ------------------------------------------ 
 
-        int num =0 , qeustion = 0;
-        do {
-            System.out.println("number of qeustion : " + num);
-            num++;
-        } while (num<3 && qeustion==1);
+        // int num = 0 , qeustion = 0;
+        // do {
+        //     System.out.println("number of qeustion : " + num);
+        //     num++;
+        // } while (num<3 && qeustion==1);
 
 
-        // --------------------------------  Do while  ------------------------------------------ 
+        // --------------------------------  Convert primitive to string  ------------------------------------------ 
+
+        // boolean b1 = true;
+        // String txtToString = Boolean.toString(b1);
+        // System.out.println("txt To String is : " + txtToString);
+
+        // int int1 = 12;
+        // String intToString = Integer.toString(int1);
+        // System.out.println("txt To String is : " + intToString);       
+
+        // long long2 = 35_541_984;
+        // NumberFormat longToString = NumberFormat.getNumberInstance();
+        // String formatvalue = longToString.format(long2);
+        // System.out.println("txt To String is : " + formatvalue);  
+
+
+
+        // --------------------------------  StringBuilder   ------------------------------------------ 
+
+        // StringBuilder str1 = new StringBuilder("Hello")
+        // .append(", ")        
+        // .append("students")        
+        // .append("!");
+
+
+        // System.out.println(str1); 
+        // str1.delete(0, str1.length());
+        // System.out.println(str1); 
+
+        // --------------------------------  Comparing strings  ------------------------------------------ 
+
+
+        // String str1 = "hi ";
+        // String str2 = "five";
+        // String str3 = str1 + str2 ;
+        // String str4 = "HI FIVE";
+
+        // if (str3.equals(str4))
+        //     System.out.println("they're equal" );  
+        // else
+        //     System.out.println("they're not equal" );  
+
+
+        // if (str3.equalsIgnoreCase(str4))
+        //     System.out.println("they're equal" );  
+        // else
+        //     System.out.println("they're not equal" ); 
+
+
+
+        // --------------------------------  User input  ------------------------------------------ 
+
+        // --------------------------------  Formatting numeric values (search fot this) ------------------------------------------ 
+
+        // --------------------------------    ------------------------------------------ 
+
+
+
 
 
 
