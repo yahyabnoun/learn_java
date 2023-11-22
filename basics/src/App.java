@@ -7,6 +7,8 @@
 
 // import java.util.Locale;
 
+ 
+
 public class App {
     public static void main(String[] args) throws Exception {
         
@@ -176,6 +178,14 @@ public class App {
 
         // --------------------------------  User input  ------------------------------------------ 
 
+
+        // System.out.println("What is your name?");
+        // Scanner scanner = new Scanner(System.in);
+        // String name = scanner.nextLine();
+        // System.out.println(name + " is a nice name!");
+        // scanner.close();
+
+
         // --------------------------------  Formatting numeric values (search fot this) ------------------------------------------ 
 
         // --------------------------------  Count, search and cut strings  ------------------------------------------ 
@@ -191,16 +201,17 @@ public class App {
         
         // --------------------------------  Remove white space in strings  ------------------------------------------ 
         
-        String str1 = "yahya     ";
-        System.out.println(str1.length());
+        // String str1 = "yahya     ";
+        // System.out.println(str1.length());
         
-        str1 = str1.trim();
-        System.out.println(str1.length());
+        // str1 = str1.trim();
+        // System.out.println(str1.length());
         
         
         // --------------------------------  Date / Time (Gregorian Calendar)  ------------------------------------------ 
 
 
+        // --------------------------------    ------------------------------------------ 
 
 
 
